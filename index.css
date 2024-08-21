@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: lightgreen;
+    height: 400px;
+    width: 300px;
+    margin:  20vh auto;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+.header{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between
+}
+.header input{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color:black;
+    font-weight: 700;
+}
+.i i{
+    margin-top: 2px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 2rem;
+    color: black;
+    background-color: white;
+}
+.main{
+    margin: 0 20px;
+}
+.main img{
+    height: 100px;
+}
+.temp{
+    font-size: 2rem;
+    margin-left: 65px;
+    padding: 10px;
+}
+.cityname{
+    font-size: 1.5rem;
+    margin: 0 70px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.humperc{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.windspeed{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
